@@ -1,0 +1,78 @@
+UTILITY SENTINEL AI
+UTILITY OPERATIONS STANDARD OPERATING PROCEDURES
+
+1. SMART METER COMMUNICATION FAILURE
+
+When a smart meter stops communicating or becomes offline, the field engineer should perform the following checks:
+
+- Verify that the meter has electrical power.
+- Check the meter communication status.
+- Check the timestamp of the last successful meter reading.
+- Inspect communication cables and physical connections.
+- Verify network or communication connectivity.
+- Check meter configuration and communication settings.
+- Review recent communication error logs if available.
+- If the communication failure persists after basic checks, escalate the incident for further technical investigation.
+
+The system should not automatically disconnect or control the meter. Operational decisions must be made by qualified utility personnel.
+
+
+2. CONSUMPTION SPIKE
+
+When abnormal electricity consumption is detected, the operator should:
+
+- Compare the current consumption with the meter's historical baseline.
+- Verify the magnitude of the consumption deviation.
+- Check whether a new or high-power load was recently connected.
+- Inspect connected equipment for abnormal operation.
+- Verify meter readings against a calibrated reference where available.
+- Review recent meter events and operational logs.
+- Check for possible meter or sensor faults.
+- Investigate possible unauthorized or unexpected loads where appropriate.
+- If the abnormal consumption persists, schedule a field inspection.
+
+The operator should use actual meter readings and available historical information when evaluating the incident.
+
+
+3. VOLTAGE ANOMALY
+
+When abnormal voltage is detected:
+
+- Verify the reported voltage reading.
+- Compare the reading with recent historical measurements.
+- Check whether the abnormal voltage is persistent or temporary.
+- Inspect meter and electrical connections.
+- Review available event or fault logs.
+- Check upstream electrical equipment where appropriate.
+- Escalate repeated or severe voltage anomalies to qualified utility personnel.
+
+The system provides decision support and does not automatically control electrical equipment.
+
+
+4. HIGH RISK INCIDENT
+
+For a high-risk utility incident:
+
+- Review the incident severity.
+- Review the risk score.
+- Examine the supporting meter evidence.
+- Review historical consumption or electrical trends.
+- Identify possible operational causes.
+- Perform appropriate field or technical checks.
+- Document the investigation result.
+- Escalate the incident when required by operational procedures.
+
+A high risk score indicates that an incident should receive higher investigation priority. It does not by itself prove the cause of the incident.
+
+
+5. GENERAL OPERATIONAL PRINCIPLES
+
+Utility Sentinel AI is a decision-support system.
+
+AI-generated recommendations must be validated by qualified utility personnel before operational action.
+
+The AI system must not invent sensor readings, measurements, events, or operational facts.
+
+Recommendations should be based on available incident data and approved operational knowledge.
+
+The system should assist operators in prioritizing and investigating incidents rather than automatically controlling utility infrastructure.
